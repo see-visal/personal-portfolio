@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Host
+Host: https://soeurn-visal.vercel.app
+
+# Sitemaps
+Sitemap: https://soeurn-visal.vercel.app/sitemap.xml

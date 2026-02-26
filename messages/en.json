@@ -1,0 +1,50 @@
+{
+    "nav": {
+        "about": "About",
+        "tech": "Tech Stack",
+        "projects": "Projects",
+        "contact": "Contact"
+    },
+    "hero": {
+        "welcome": "Welcome to my portfolio",
+        "greeting": "Hi, I'm Soeurn Visal",
+        "role": "Full-Stack Developer & Tech Enthusiast",
+        "description": "Passionate about building innovative solutions that bridge the gap between technology and human needs. I thrive on solving complex problems through elegant code and creative thinking.",
+        "viewProjects": "View Projects",
+        "getInTouch": "Get in Touch"
+    },
+    "about": {
+        "title": "About Me",
+        "passion": "My Passion",
+        "passionDesc": "I am a dedicated software developer with a strong foundation in both frontend and backend technologies. My journey in tech is driven by curiosity and a desire to build tools that make a difference. I specialize in creating responsive, user-friendly applications using modern frameworks.",
+        "whatIDo": "What I Do:",
+        "items": {
+            "0": "Developing scalable web applications",
+            "1": "Building RESTful APIs and microservices",
+            "2": "Creating intuitive user interfaces",
+            "3": "Continuous learning and staying updated with tech trends"
+        },
+        "role": "Full-Stack Developer",
+        "tagline": "Crafting digital experiences with passion"
+    },
+    "tech": {
+        "title": "Tech Stack",
+        "subtitle": "Technologies and tools I work with to bring ideas to life",
+        "categories": {
+            "frontend": "Frontend",
+            "backend": "Backend",
+            "database": "Database",
+            "devops": "DevOps & Tools"
+        }
+    },
+    "projects": {
+        "title": "Featured Projects",
+        "subtitle": "A selection of my recent work and personal projects"
+    },
+    "contact": {
+        "title": "Get In Touch",
+        "description": "I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.",
+        "sayHello": "Say Hello",
+        "rights": "Soeurn Visal. All rights reserved."
+    }
+}
