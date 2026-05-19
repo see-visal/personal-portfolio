@@ -76,8 +76,8 @@ export default function AboutSection() {
                                         <p className="mt-2 text-zinc-600 dark:text-zinc-400">
                                             {t('about.role')}
                                         </p>
-                                        <p className="mt-1 text-sm text-zinc-500 dark:text-zinc-500">
-                                            {t('about.tagline')}
+                                        <p className="mt-3 text-sm text-zinc-500 dark:text-zinc-400 leading-relaxed max-w-[220px] mx-auto">
+                                            {t('about.profileBio')}
                                         </p>
                                     </div>
                                 </div>

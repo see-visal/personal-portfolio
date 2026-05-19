@@ -31,7 +31,8 @@ export default function Navbar() {
                     : "bg-transparent"
             )}
         >
-            <div className="container mx-auto flex h-16 items-center justify-between px-4">
+            <div className="container mx-auto flex h-16 items-center px-4 relative">
+                {/* Logo – left */}
                 <Link
                     href="/"
                     className={cn(
@@ -42,7 +43,8 @@ export default function Navbar() {
                     {siteConfig.name}
                 </Link>
 
-                <nav className="hidden items-center gap-6 md:flex">
+                {/* Nav links – absolutely centered */}
+                <nav className="hidden items-center gap-6 md:flex absolute left-1/2 -translate-x-1/2">
                     <Link href="/#about" className="text-sm font-medium text-zinc-600 transition-colors hover:text-blue-600 dark:text-zinc-400 dark:hover:text-blue-400">
                         {t('nav.about')}
                     </Link>
@@ -55,12 +57,16 @@ export default function Navbar() {
                     <Link href="/#contact" className="text-sm font-medium text-zinc-600 transition-colors hover:text-blue-600 dark:text-zinc-400 dark:hover:text-blue-400">
                         {t('nav.contact')}
                     </Link>
-                    <LanguageToggle />
-                    <ModeToggle />
                 </nav>
 
+                {/* Toggles – right */}
+                <div className="hidden md:flex items-center gap-3 ml-auto">
+                    <LanguageToggle />
+                    <ModeToggle />
+                </div>
+
                 {/* Mobile Menu Toggle */}
-                <div className="flex items-center gap-4 md:hidden">
+                <div className="flex items-center gap-4 md:hidden ml-auto">
                     <LanguageToggle />
                     <ModeToggle />
                     <button
@@ -75,7 +81,7 @@ export default function Navbar() {
             {/* Mobile Menu */}
             {isMobileMenuOpen && (
                 <div className="border-b border-zinc-200 bg-white px-4 py-4 dark:border-zinc-800 dark:bg-black md:hidden">
-                    <nav className="flex flex-col gap-4">
+                    <nav className="flex flex-col items-center gap-4 text-center">
                         <Link
                             href="/#about"
                             onClick={() => setIsMobileMenuOpen(false)}
